@@ -1,4 +1,4 @@
-##**Resume Summarizer & Classifier**
+**Resume Summarizer & Classifier**
 
 **Overview**
 
