@@ -1,16 +1,16 @@
-**Resume Summarizer & Classifier**
+#Resume Summarizer & Classifier
 
-**Overview**
+##Overview
 
 The Resume Summarizer & Classifier is a web-based application that automatically extracts and summarizes key information from resumes. It helps recruiters and hiring managers quickly evaluate candidate profiles without manually reviewing full documents.The system supports resumes in PDF and DOCX formats and uses a pretrained natural language processing model to generate concise summaries.
 
-**Objective**
+##Objective
 
 - Automatically summarize resumes into key highlights
 - Reduce manual resume screening time
 - Provide a structured and concise overview of candidate profiles
 
-**Tech Stack**
+##Tech Stack
 
 - Programming Language -> Python 3.10+
 - NLP Model	-> Hugging Face Transformers (Pretrained Summarization Model)
@@ -19,7 +19,7 @@ The Resume Summarizer & Classifier is a web-based application that automatically
 - Web Framework	-> Streamlit / Gradio / Flask
 - Resume Parsing	-> docx2txt, PyPDF2
 
-**Key Features**
+##Key Features
 
 - Upload resumes in PDF or DOCX format
 - Automatic text extraction
@@ -27,7 +27,7 @@ The Resume Summarizer & Classifier is a web-based application that automatically
 - Web-based interface for ease of use
 - Fast and scalable inference
 
-**Implementation Workflow**
+##Implementation Workflow
 
 1. Upload a resume (PDF or DOCX) through the web interface
 2. Extract text from the uploaded file
@@ -38,17 +38,12 @@ The Resume Summarizer & Classifier is a web-based application that automatically
 5. Display the summarized content on the web application
 
 
-**Project Structure**
+##Project Structure
 
-resume-classifier/
-│── app.py              # Streamlit web application
-│── parser_utils.py     # Utilities for parsing PDF and DOCX resumes
-│── summarizer.py       # NLP summarization logic using Hugging Face
-│── requirements.txt    # Project dependencies
-│── README.md           # Project documentation
+<img width="733" height="194" alt="image" src="https://github.com/user-attachments/assets/14468501-c7af-41e1-aa71-6d4a29076fb1" />
 
 
-**Future Enhancements**
+##Future Enhancements
 
 - Resume classification by job role or domain
 - Skill extraction and keyword-based scoring
@@ -56,6 +51,6 @@ resume-classifier/
 - Export summaries as PDF or JSON
 - ATS relevance and compatibility scoring
 
-**Conclusion**
+##Conclusion
 
 The Resume Summarizer & Classifier simplifies resume evaluation by leveraging modern NLP techniques to generate concise and meaningful summaries. It is suitable for academic projects, recruitment automation, and AI-driven hiring workflows.
